@@ -1,4 +1,4 @@
-< [Readme](Readme.md)
+< [Readme](./Readme.md)
 
 # (0) Mindset First!
 

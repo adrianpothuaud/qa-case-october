@@ -22,7 +22,7 @@ Feature: First security step for edit phone number
 
     # edge cases
     # type an invalid verification code
-    Scenario: Edit phone number, OTP timeout limit
+    Scenario: First security step on edit phone number, invalid OTP
         Given I am a Lender
         And I am logged in the app
         And I am completing the security steps to change my phone number
@@ -31,7 +31,7 @@ Feature: First security step for edit phone number
         And I must be warned that my validation code is not correct
 
     # go after code validity timeout
-    Scenario: Edit phone number, OTP timeout limit
+    Scenario: First security step on edit phone number, OTP timeout limit
         Given I am a Lender
         And I am logged in the app
         And I am completing the security steps to change my phone number
@@ -42,7 +42,7 @@ Feature: First security step for edit phone number
 
     # monkey tests
     # type less than 6 digits
-    Scenario: Edit phone number, OTP timeout limit
+    Scenario: First security step on edit phone number, less than 6 digits
         Given I am a Lender
         And I am logged in the app
         And I am completing the security steps to change my phone number
@@ -50,7 +50,7 @@ Feature: First security step for edit phone number
         Then I should not be able to enter my birth-date
 
     # type more than 6 digits
-    Scenario: Edit phone number, OTP timeout limit
+    Scenario: First security step on edit phone number, more than 6 digits
         Given I am a Lender
         And I am logged in the app
         And I am completing the security steps to change my phone number
