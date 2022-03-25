@@ -1,0 +1,12 @@
+{
+  "name": "frontend-e2e-testing-solution",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^9.5.2",
+    "eslint": "^8.11.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-cypress": "^2.12.1"
+  }
+}
