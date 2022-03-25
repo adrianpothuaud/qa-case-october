@@ -1,0 +1,14 @@
+{
+  "name": "e2e-testing-solution",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.3.2",
+    "axios": "^0.26.1",
+    "chai": "^4.3.6",
+    "eslint": "^8.11.0",
+    "eslint-config-google": "^0.14.0",
+    "webdriverio": "^7.19.1"
+  }
+}
