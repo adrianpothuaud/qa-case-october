@@ -10,6 +10,7 @@ These tests are intended to be run against a test/staging environment, not in pr
 
 ## How to ?
 
+- run `yarn` to install dependencies
 - `cp .env.sample .env`
 - Modify at need the environment variables in `.env`
 - Simply run `yarn e2e`
