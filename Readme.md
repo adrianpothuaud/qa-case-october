@@ -10,8 +10,6 @@
 
 # Live Test
 
-[Postman Collection]()
-
 [bug report template](./bug_report_template.md)
 
 # Bonus - Automation Testing
