@@ -1,3 +1,5 @@
+< [QA Case Readme](../Readme.md)
+
 # E2E Testing Solution
 
 I have intentionally not implemented all the tests because I guess it is not the goal of the test but I have setup a base project that could be use for test automation of BDD rules at October.
