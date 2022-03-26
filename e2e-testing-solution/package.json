@@ -3,12 +3,21 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "lint": "eslint . --color --ext .js",
+    "lint:fix": "eslint . --color --ext .js --fix",
+    "e2e": "cucumber-js"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0",
+    "webdriverio": "^7.19.1"
+  },
   "devDependencies": {
     "@cucumber/cucumber": "^7.3.2",
-    "axios": "^0.26.1",
     "chai": "^4.3.6",
     "eslint": "^8.11.0",
     "eslint-config-google": "^0.14.0",
-    "webdriverio": "^7.19.1"
+    "eslint-plugin-import": "^2.25.4"
   }
 }

@@ -16,7 +16,4 @@
 
 # Bonus - Automation Testing
 
-- [example whitebox integration test suite (backend)](backend-e2e-testing-solution)
-- [example whitebox functional test suite (frontend)](frontend-e2e-testing-solution)
 - [example blackbox e2e test suite](e2e-testing-solution)
-- [example ci configuration](ci)
